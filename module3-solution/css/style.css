@@ -1,0 +1,135 @@
+body {
+  font-size: 16px;
+  color:#fff;
+  background-color:lightgreen !important;
+}
+#header-nav
+{
+	background-color: orange;
+	border-radius: 0;
+	border:2px solid blue;
+
+}
+.navbar-brand h1
+{
+	color:blue;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	position: absolute;
+
+	
+}
+#main{
+	margin-left: 0 !important;
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+	text-decoration: none;
+}
+#nav-list
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#nav-list a
+{
+  color: red;
+  background-color: magenta;
+  text-align: center;
+  
+}
+
+#nav-list a:hover
+ {
+  background: skyblue;
+}
+#nav-list a 
+ {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar 
+{
+  border: 1px solid purple;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -45px;
+
+}
+
+h2{
+	color: purple  !important;
+	text-align:center;
+
+}
+.row
+{
+
+	width:100%;
+}
+#box h3
+{
+	text-align: center;
+	margin-top:  10px;
+	color: blue;
+	
+}
+#box
+{
+  	margin-left: 0;
+	padding-left: 10px;
+	color: green;
+	width: 100%;
+	height: 1000px;
+	margin-top: 50px;
+	background-color:skyblue;
+	box-sizing: border-box;
+}
+
+@media(min-width: @screen-lg-min)
+{
+	#box
+	{
+		margin-left: 10px;
+		margin-right: 10px;
+		width:100%;
+	}
+
+	
+}
+@media(min-width: @screen-md-min) and (max-width: @screen-md-max)
+{
+	
+	#box
+	{
+		margin-left: 10px;
+		
+		width:100%;
+	}
+
+	
+}
+@media(min-width: @screen-sm-min) and (max-width: @screen-sm-max) 
+
+{
+	
+
+	#box
+	{
+		margin-left: 10px;
+		
+		width:100%;
+	}
+}
+@media(max-width: 767px)
+{
+	#box{
+		margin-left: 10px;
+		
+	}
+}
+
